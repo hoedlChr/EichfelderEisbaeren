@@ -61,7 +61,7 @@
                 const newsFiles = await indexResponse.json();
                 for (const item of newsFiles) {
                     try {
-                        const response = await fetch('/news/' + item.file);
+                        const response = await fetch('./news/' + item.file);
                         const markdown = await response.text();
                         let html = marked.parse(markdown);
                         // Ersetze [bild.png] mit <img src="bilder/bild.png">
