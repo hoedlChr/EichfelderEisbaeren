@@ -73,8 +73,8 @@
                         const dateStr = new Date(item.created).toLocaleString('de-DE');
                         const meta = `<small class="text-muted">Erstellt am ${dateStr} von ${item.author}</small>`;
                         const newsItem = document.createElement('div');
-                        newsItem.className = 'mb-4';
-                        newsItem.innerHTML = meta + html + '<hr>';
+                        newsItem.className = 'mb-4 border p-3 bg-light';
+                        newsItem.innerHTML = meta + html;
                         newsContainer.appendChild(newsItem);
                     } catch (error) {
                         console.error('Fehler beim Laden von ' + item.file, error);
