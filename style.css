@@ -1,0 +1,28 @@
+/* Zusätzliche Anpassungen für Bootstrap */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Vereinsfarben: Türkis, Schwarz, Weiß */
+:root {
+    --verein-tuerkis: #40E0D0; /* Türkis */
+    --verein-schwarz: #000000; /* Schwarz */
+    --verein-weiss: #FFFFFF; /* Weiß */
+}
+
+/* Navbar in Türkis */
+.navbar {
+    background-color: var(--verein-schwarz) !important;
+}
+
+/* Footer in Schwarz */
+footer {
+    background-color: var(--verein-schwarz) !important;
+    color: var(--verein-weiss) !important;
+}
+
+/* Optional: Anpassungen für spezielle Elemente */
+.navbar-brand {
+    font-weight: bold;
+}
+
