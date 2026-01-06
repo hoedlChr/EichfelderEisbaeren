@@ -17,7 +17,7 @@ Die Vereinsfarben sind Türkis, Schwarz und Weiß:
 - Navbar: Türkis
 - Footer: Schwarz
 - Text: Weiß auf dunklen Hintergründen
-
+ 
 ## Lokale Entwicklung
 
 ### Server starten
