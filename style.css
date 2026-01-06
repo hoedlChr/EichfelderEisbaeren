@@ -15,6 +15,9 @@ body {
     background-color: var(--verein-schwarz) !important;
 }
 
+.text-tuerkis {
+    color: var(--verein-tuerkis) !important;
+} 
 /* Footer in Schwarz */
 footer {
     background-color: var(--verein-schwarz) !important;
