@@ -112,3 +112,5 @@ Da es eine statische Website ist, können Sie sie auf jedem Webserver hosten (z.
 - **Browser-Test**: Testen Sie auf verschiedenen Geräten und Browsern.
 
 Bei Fragen oder Problemen wenden Sie sich an den Entwickler oder den Vereinsvorstand.
+
+**Test_Seite**: https://hoedlchr.github.io/EichfelderEisbaeren/index.html
